@@ -199,23 +199,33 @@ My long-term goal is to work on scalable software products and pursue software e
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Dharan-K&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharan-K&layout=compact&theme=tokyonight&hide_border=true" />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dharan-K&theme=tokyonight"
+    height="170"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dharan-K&theme=tokyonight"
+    height="170"
+  />
 </p>
 
 ### 🔥 Contribution Streak
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Dharan-K&theme=tokyonight&hide_border=true" />
+  <img
+    src="https://streak-stats.demolab.com/?user=Dharan-K&theme=tokyonight&hide_border=true"
+    alt="GitHub Streak"
+  />
 </p>
 
 ### 📈 Contribution Graph
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Dharan-K&theme=tokyo-night&hide_border=true" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=Dharan-K&theme=tokyo-night&hide_border=true"
+    alt="Dharan's Contribution Graph"
+  />
 </p>
-
----
 
 ### 🔗 Competitive Programming Profiles
 
