@@ -1,5 +1,5 @@
 <h1 align="center">Hey, I'm Dharan K 👋</h1>
-<h3 align="center">CSE Student · Cloud & Full-Stack Enthusiast · Building UrbanGrow 🌱</h3>
+<h3 align="center">CSE Student · Cloud & Full-Stack Enthusiast · Building Projects</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Learning+AWS+%2B+DSA+every+day;Building+IoT+%2B+AI+powered+apps;Currently+chasing+a+Top+3+hackathon+finish" alt="Typing SVG" />
@@ -20,7 +20,7 @@
 - 🚀 Building **UrbanGrow** — an IoT + AI smart farming platform for urban gardens
 - 🏆 Participated in **50+ hackathons** — chasing that first Top 3 finish
 - 💬 Ask me about ESP32 sensors, AWS services, or graph algorithms
-- 📫 Reach me at **your-email@example.com**
+- 📫 Reach me at **dharankandasamy2007@gmail.com*
 
 ---
 
@@ -91,13 +91,14 @@ Actively solving on **LeetCode** — Graphs, BFS/DFS, Binary Trees, Binary Searc
 
 ### 🏆 Hackathons & Experience
 
-50+ hackathons and counting, including Hack-a-League 4.0, Stellaris 2026, HackNSU Season 6, Databricks Hackathon, and the Slack Agent Builder Challenge.
+30+ hackathons and counting, including Hack-a-League 4.0, Stellaris 2026, HackNSU Season 6, Databricks Hackathon, and the Slack Agent Builder Challenge.
 
 ---
 
 ### 📜 Certifications
 
 - AWS Cloud Practitioner Essentials — Skill Builder
+- AWS Certified AI Practitioner (AIF-CO1)
 - MongoDB Basics for Students
 - Google Cloud Engineering Virtual Internship (Eduskill Cohort 12)
 
@@ -118,8 +119,8 @@ Aiming to become a strong software engineer through real-world projects, cloud e
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=your-github-username&show_icons=true&theme=tokyonight&hide_border=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=your-github-username&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Dharan-K&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Dharan-K&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ### 🔥 Contribution Streak
