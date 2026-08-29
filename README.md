@@ -222,8 +222,22 @@ My long-term goal is to work on scalable software products and pursue software e
 
 <p align="center">
   <img
-    src="https://github-readme-activity-graph.vercel.app/graph?username=Dharan-K&theme=tokyo-night&hide_border=true"
-    alt="Dharan's Contribution Graph"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Dharan-K&theme=tokyonight"
+    width="95%"
+    alt="GitHub Profile Summary"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Dharan-K&theme=tokyonight"
+    height="170"
+    alt="GitHub Stats"
+  />
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Dharan-K&theme=tokyonight"
+    height="170"
+    alt="Top Languages"
   />
 </p>
 
