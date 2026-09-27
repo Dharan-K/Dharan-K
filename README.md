@@ -41,7 +41,7 @@ I build practical software systems across **backend engineering, AI/ML, cloud, a
 
 - [LinkedIn](https://www.linkedin.com/in/k-dharan/)
 - [LeetCode](https://leetcode.com/u/DHARAN_K/)
-- [CodeChef](https://www.codechef.com/users/dharan61)
+- [CodeChef](https://www.codechef.com/users/dharan6194)
 - [Codeforces](https://codeforces.com/profile/dharan_k)
 
 ---
@@ -49,6 +49,11 @@ I build practical software systems across **backend engineering, AI/ML, cloud, a
 I'm interested in **software engineering, backend systems, cloud, AI engineering, and building useful products**.
 """
 
-out = Path("/mnt/data/README_fixed.md")
-out.write_text(readme, encoding="utf-8")
-print(f"Fixed README created: {out}")
+path = Path("/mnt/data/README_GITHUB.md")
+path.write_text(readme, encoding="utf-8")
+
+# Verify the actual first and last lines so the generated file cannot contain the Python generator itself.
+content = path.read_text(encoding="utf-8")
+print("Created:", path)
+print("First line:", content.splitlines()[0])
+print("Contains generator code:", "from pathlib import Path" in content or "pypandoc" in content)
