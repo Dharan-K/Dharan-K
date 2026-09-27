@@ -1,35 +1,35 @@
-import pypandoc
+from pathlib import Path
 
-readme = r"""# Hi, I'm Dharan 👋
+readme = """# Hi, I'm Dharan 👋
 
-I'm a Computer Science Engineering student at Chennai Institute of Technology, focused on **backend, cloud, platform engineering, and AI engineering**.
+**CSE Student @ Chennai Institute of Technology · Software Developer · AI/ML · Cloud · Backend**
 
-I enjoy building practical systems that combine software engineering with real-world problem solving — from AI applications and developer tools to connected systems and resource-aware robotics.
+I build practical software systems across **backend engineering, AI/ML, cloud, and connected systems**. I enjoy turning technical ideas into working products and learning the engineering behind them.
 
-### Currently building & learning
+### What I'm working on
 
-- 🤖 **SmartNav** — a low-cost teach-and-repeat robot with an ESP32, Python/OpenCV backend, and React dashboard.
-- 🧠 Exploring **AI engineering** — building production-oriented AI systems beyond simple model demos.
-- ☁️ Strengthening **cloud, backend, and systems** skills with a focus on placement-ready engineering.
+- 🤖 **SmartNav** — a low-cost teach-and-repeat robot using ESP32, Python/OpenCV, FastAPI, and React.
+- 🧠 **AI Engineering** — learning to build reliable, production-oriented AI systems beyond simple model demos.
+- ☁️ **Cloud & Backend** — strengthening distributed systems, APIs, databases, and cloud fundamentals.
 
 ### Core stack
 
 **Languages:** Python · C++ · Java · JavaScript · TypeScript · SQL
 
-**Backend & Web:** Node.js · Express · Django · React · Streamlit · FastAPI
+**Backend / Web:** Node.js · Express · Django · FastAPI · React · Streamlit
 
 **AI / ML:** TensorFlow · PyTorch · Keras · Scikit-learn · OpenCV · NumPy · Pandas
 
-**Databases & Cloud:** MySQL · MongoDB · SQLite · Firebase · Appwrite · AWS
+**Databases / Cloud:** MySQL · MongoDB · SQLite · Firebase · Appwrite · AWS
 
-**Engineering:** DSA · OOP · DBMS · Operating Systems · REST APIs · Git/GitHub
+**Foundations:** DSA · OOP · DBMS · Operating Systems · REST APIs · Git/GitHub
 
-### Featured projects
+### Projects worth exploring
 
-- **SmartNav** — Teach-and-repeat resource-monitoring robot using ESP32, Python/OpenCV, FastAPI, and React.
-- **Brain Tumor Prediction** — 4-class MRI classification using MobileNetV2, TensorFlow/Keras, OpenCV, and Grad-CAM.
-- **ProjectVeil** — privacy-preserving stablecoin eligibility verification using zero-knowledge proofs and a Soroban verifier.
-- **UrbanGrow** — smart agriculture dashboard combining weather data, AI assistance, and Firebase-backed application features.
+- 🤖 [**SmartNav**](https://github.com/Dharan-K/teach-repeat-robot) — Teach-and-repeat resource-monitoring robot with ESP32, Python/OpenCV, FastAPI, and React.
+- 🧠 [**Brain Tumor Prediction**](https://github.com/Dharan-K/brain-tumor-mri-classification) — 4-class MRI classification using MobileNetV2, TensorFlow/Keras, OpenCV, and Grad-CAM.
+- 🔐 [**ProjectVeil**](https://github.com/Dharan-K/ProjectVeil) — Privacy-preserving stablecoin eligibility verification using zero-knowledge proofs and a Soroban verifier.
+- 🌱 **UrbanGrow** — Smart agriculture dashboard combining weather data, AI assistance, and Firebase-backed application features.
 
 ### Competitive programming
 
@@ -39,11 +39,16 @@ I enjoy building practical systems that combine software engineering with real-w
 
 ### Connect
 
-- GitHub: [Dharan-K](https://github.com/Dharan-K)
+- [LinkedIn](https://www.linkedin.com/in/k-dharan/)
+- [LeetCode](https://leetcode.com/u/DHARAN_K/)
+- [CodeChef](https://www.codechef.com/users/dharan61)
+- [Codeforces](https://codeforces.com/profile/dharan_k)
 
-I'm always interested in **software engineering, backend systems, cloud, AI engineering, and building useful products**.
+---
+
+I'm interested in **software engineering, backend systems, cloud, AI engineering, and building useful products**.
 """
 
-out = "/mnt/data/README.md"
-pypandoc.convert_text(readme, "md", format="md", outputfile=out, extra_args=["--standalone"])
-print(f"Created: {out}")
+out = Path("/mnt/data/README_fixed.md")
+out.write_text(readme, encoding="utf-8")
+print(f"Fixed README created: {out}")
